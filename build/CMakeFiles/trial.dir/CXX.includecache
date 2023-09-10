@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/Solar System Dynamics/trial.cpp
+trial.hpp
+/workspaces/Solar System Dynamics/trial.hpp
+
+/workspaces/Solar System Dynamics/trial.hpp
+

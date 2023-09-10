@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -flto -shared  -o lib/trial.cpython-311-x86_64-linux-gnu.so CMakeFiles/trial.dir/trial.cpp.o CMakeFiles/trial.dir/binder.cpp.o 

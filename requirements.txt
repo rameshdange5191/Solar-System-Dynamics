@@ -1,0 +1,7 @@
+numpy
+scipy
+seaborn
+jupyterlab
+matplotlib
+pandas
+black[jupyter]

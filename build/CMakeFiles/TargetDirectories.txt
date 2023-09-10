@@ -1,0 +1,3 @@
+/workspaces/Solar System Dynamics/build/CMakeFiles/rebuild_cache.dir
+/workspaces/Solar System Dynamics/build/CMakeFiles/PhyVec_class.dir
+/workspaces/Solar System Dynamics/build/CMakeFiles/edit_cache.dir

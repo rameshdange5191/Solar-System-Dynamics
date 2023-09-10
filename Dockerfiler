@@ -1,0 +1,19 @@
+FROM python:3.11.2-buster
+
+LABEL description = "Remote Container Test"
+LABEL version = "1.0"
+
+COPY requirements.txt ./
+
+RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
+
+ENV PYTHONPATH "/"
+WORKDIR .
+
+RUN apt-get update && \
+    apt-get install -y build-essential && \
+    apt-get install -y cmake && \
+    apt-get install -y libeigen3-dev && \
+    apt-get install -y gcc && \
+    apt-get install -y g++
+
